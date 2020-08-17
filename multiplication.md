@@ -4,7 +4,7 @@
 
 - Given : The calculator is properly working.
 - When : The user enters _operand '*' operand_ and presses the '=' button.
-- Then : The result of multiplication of the two numbers is displayed.
+- Then : The result is the multiplication of the two numbers.
 
 ## Scenario: Operator instead of the second Operand
   
