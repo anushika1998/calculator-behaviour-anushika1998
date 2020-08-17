@@ -2,8 +2,8 @@
 
 ## Scenario: Subtraction of two numbers
 
-- Given : It is a properly working calculator.
-- When : _operand '-' operand_ is entered and '=' button is pressed.
+- Given : The calculator is properly working.
+- When : After entering _operand '-' operand_ the '=' button is pressed.
 - Then : The result is the subtraction of the two numbers.
 
 ## Scenario: Operator instead of the second Operand
