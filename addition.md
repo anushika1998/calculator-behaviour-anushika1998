@@ -1,17 +1,17 @@
 # Addition
 
-Scenario: (describe a scenario here)
+##Scenario: Addition of two numbers
   
-  Given (state the initial condition)
+  - Given : It is a properly working calculator.
+  - When : _oprand '+' operand_ is entered and '=' button is pressed.
+  - Then : The resuld ie. sum of the two numbers is displayed. 
 
-  When (state the event)
-  
-  Then (state the effect)
 
-Scenario: (describe a scenario here)
+##Scenario: Operator instead of the second Operand
   
-  Given (state the initial condition)
-  
-  When (state the event)
-  
-  Then (state the effect)
+  - Given : It is a properly working calculator.
+  - When : _oprand '+' operator_ is entered and '=' button is pressed.
+  - Then : The result would be replacement of the existing operator.
+
+  **Example:**  input: 56 * / _then_ '=' is pressed.
+  result: 56 / and still wait for input of new operand 
